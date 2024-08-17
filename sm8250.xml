@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="KONA"
+          fetch="https://github.com/orgs/SamsungKonaAOSP"
+          revision="lineage-21" />
+          
+  <!--Device tree-->
+  <project name="android_device_samsung_sm8250-common" path="device/samsung/sm8250-common" remote="KONA"/>
+  <project name="android_device_samsung_r8q" path="device/samsung/r8q" remote="KONA"/>
+  <!--<project name="android_device_samsung_gts7l" path="device/samsung/gts7l" remote="KONA"/>
+  project name="android_device_samsung_gts7lwifi" path="device/samsung/gts7lwifi" remote="KONA"/>
+  <project name="android_device_samsung_gts7xl" path="device/samsung/gts7xl" remote="KONA"/>
+  <project name="android_device_samsung_gts7xlwifi" path="device/samsung/gts7xlwifi" remote="KONA"/>-->
+
+  <!-- Vendor -->
+  <project name="proprietary_vendor_samsung_sm8250-common" path="vendor/samsung/sm8250-common" remote="KONA"/>
+
+  <!-- SLSI -->
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="KONA"/>
+  
+  <!-- Kernel -->
+  <project name="android_kernel_samsung_sm8250" path="kernel/samsung/sm8250" remote="KONA"/>
+
+</manifest>
